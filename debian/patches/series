@@ -1,0 +1,3 @@
+0001_no-deprecated-gnome-common-macros.patch
+0002_fix-ftbfs-gtk-doc-1-32.patch
+0003_port-tools-dbusmenu-bench-to-py3.patch

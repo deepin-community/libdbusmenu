@@ -1,0 +1,492 @@
+492: Sebastien Bacher 2019-09-13 {16.04.1+18.10.20180917-0ubuntu2} releasing package libdbusmenu version 16.04.1+18.10.20180917-0ubuntu2
+491: Sebastien Bacher 2019-09-13 Build without Werror to fix the build with the new glib (lp: #1843744)
+490: Bileto Bot 2018-09-17 {16.04.1+18.10.20180917-0ubuntu1} Releasing 16.04.1+18.10.20180917-0ubuntu1
+489: Marco Trevisan (Treviño) 2018-09-17 [merge] tests: don't use gtester for gtkdoc-check tests
+488: Bileto Bot 2017-12-06 {16.04.1+18.04.20171206-0ubuntu1} Releasing 16.04.1+18.04.20171206-0ubuntu1
+487: Jeremy Bicha 2017-12-06 [merge] Drop unneeded dependency from libdbusmenu-glib-dev to libgtk2.0-dev
+486: Bileto Bot 2017-01-09 {16.04.1+17.04.20170109.1-0ubuntu1} Releasing 16.04.1+17.04.20170109.1-0ubuntu1
+485: Marco Trevisan (Treviño) 2017-01-09 [merge] debian/control: add gnome-common as build dependency for autogen.sh" debian/control
+484: Dmitry Shachnev 2017-01-09 [merge] Fix build with --enable-massivedebugging
+483: Bileto Bot 2016-09-27 {16.04.1+16.10.20160927.2-0ubuntu1} Releasing 16.04.1+16.10.20160927.2-0ubuntu1
+482: Albert Astals Cid 2016-09-27 [merge] genericmenuitem: Make accelerator text appear again
+481: Marco Trevisan (Treviño) 2016-02-27 {16.04.1-0ubuntu1} New 16.04 release
+480: CI Train Bot 2016-02-23 {12.10.3+16.04.20160223.1-0ubuntu1} Releasing 12.10.3+16.04.20160223.1-0ubuntu1
+479: Dan Williams 2016-02-23 [merge] gtk: look for GtkImages on regular GtkMenuItems too
+478: Dimitri John Ledkov 2015-12-07 {12.10.3+15.04.20150410.2-0ubuntu2} Disable test-json-instruction, hangs on buildds
+477: CI Train Bot 2015-04-10 {12.10.3+15.04.20150410.2-0ubuntu1} Releasing 12.10.3+15.04.20150410.2-0ubuntu1
+476: Marco Trevisan (Treviño) 2015-04-10 [merge] Parser: don't override the label for stock items if a custom one is provided Fixes: #1270486
+475: CI Train Bot 2015-04-09 {12.10.3+15.04.20150409.1-0ubuntu1} Releasing 12.10.3+15.04.20150409.1-0ubuntu1
+474: Iain Lane 2015-04-09 [merge] Use the configure-generated libtool script instead of /usr/bin/libtool, which might not match what we have. Also use gi's typelibdir pkgconfig variable and install into this directory, now that gi supports multiarch.
+473: CI bot 2014-06-10 {12.10.3+14.10.20140610-0ubuntu1} Releasing 12.10.3+14.10.20140610-0ubuntu1
+472: Marco Trevisan (Treviño) 2014-06-10 [merge] Parser: make sure that the old dbus menuitem is detached from the widget before recreating
+471: CI bot 2014-03-19 {12.10.3+14.04.20140319-0ubuntu1} Releasing 12.10.3+14.04.20140319-0ubuntu1
+470: Colin Watson 2014-03-19 [merge] Run tests with VERBOSE=1 so that Automake shows more detail. 
+469: Charles Kerr 2014-03-19 [merge] Fix FTBFS caused by failing gtk-doc coverage test
+468: CI bot 2014-02-17 {12.10.3+14.04.20140217.1-0ubuntu1} Releasing 12.10.3+14.04.20140217.1-0ubuntu1
+467: Ted Gould 2014-02-17 [merge] Flushing trunk with a release 
+466: Mathieu Trudel-Lapierre 2014-01-10 [merge] add missing changelog entry and changes for 12.10.3+14.04.20131125-0ubuntu2.
+465: Ted Gould 2013-12-19 [merge] Don't depend on valgrind on ppc64el. Fixes: https://bugs.launchpad.net/bugs/1262374.
+464: Matthew Brush 2013-12-19 [merge] Check to ensure the property isn't set to NULL. Fixes: https://bugs.launchpad.net/bugs/907635.
+463: Automatic PS uploader 2013-11-25 [merge] Releasing 12.10.3+14.04.20131125-0ubuntu1 (revision 462 from lp:libdbusmenu).
+462: Alistair Buxton 2013-11-04 [merge] Use "insert" signal instead of "child-added" (LP: #1203888)
+461: Robert Bruce Park 2013-10-17 [merge] Merge distro back to trunk.
+460: Matthias Klose 2013-10-14 [merge] Do not build-depend on valgrind on AArch64 (not yet available). Fixes: https://bugs.launchpad.net/bugs/1239473.
+459: Automatic PS uploader 2013-09-13 [merge] Releasing 12.10.3+13.10.20130913-0ubuntu1 (revision 458 from lp:libdbusmenu).
+458: Ted Gould 2013-09-09 [merge] Protect client_new functions from bad dbus names and objects.
+457: Ted Gould 2013-09-09 [merge] Extend timeouts for busy Jenkins ARM machines.
+456: Automatic PS uploader 2013-07-31 [merge] Releasing 12.10.3+13.10.20130731-0ubuntu1 (revision 455 from lp:libdbusmenu).
+455: Jeremy Bicha 2013-07-30 [merge] Don't build-depend on gnome-doc-utils.
+454: Automatic PS uploader 2013-06-28 [merge] Releasing 12.10.3+13.10.20130628-0ubuntu1 to ubuntu.
+453: Ted Gould 2013-06-24 [merge] Increase test timeouts to ensure proper results on slower platforms (ARM).
+452: Charles Kerr 2013-06-20 [merge] Fix breakage when building with coverage scanning.
+451: Jeremy Bicha 2013-06-20 [merge] Build with default valac.
+450: Charles Kerr 2013-06-20 [merge] Fix a bug caused by keeping signals connected to menuitems that we're not using anymore. Fixes: https://bugs.launchpad.net/bugs/1154701.
+449: Automatic PS uploader 2013-06-19 [merge] Releasing 12.10.3daily13.06.19-0ubuntu1 to ubuntu.
+448: Jeremy Bicha 2013-06-07 [merge] According to Debian's GObject introspection mini-policy:
+447: Automatic PS uploader 2013-06-07 [merge] Releasing 12.10.3daily13.06.07-0ubuntu1 to ubuntu.
+446: Mathieu Trudel-Lapierre 2013-06-04 [merge] Fix gtkdoc-check tests, and move them to tests subdirectory.
+445: Chris Coulson 2013-05-29 [merge] Fix the long-standing "nm-applet stops working after a few days / hours" issue; properly handle "unique" IDs for indicator menuitems. Fixes: https://bugs.launchpad.net/bugs/1011073.
+444: Automatic PS uploader 2013-05-15 [merge] Releasing 12.10.3daily13.05.15-0ubuntu1 to ubuntu.
+443: Mathieu Trudel-Lapierre 2013-05-15 [merge] Remove stray g_message().
+442: Charles Kerr 2013-05-15 [merge] In gtkclient's destructor, balance client's earlier gtk_widget_add_accelerator() calls with gtk_widget_remove_accelerator() calls. Fixes: https://bugs.launchpad.net/bugs/1173262.
+441: Automatic PS uploader 2013-02-01 [merge] Releasing 12.10.3daily13.02.01-0ubuntu1 to ubuntu.
+440: Chris Coulson 2013-01-29 [merge] Fix multiple leaks due to improper use of g_variant_parse() (fixes bug 1104136). Fixes: https://bugs.launchpad.net/bugs/1104136.
+439: Chris Coulson 2013-01-22 [merge] Fix a memory leak (bug 1103050). Fixes: https://bugs.launchpad.net/bugs/1103050.
+438: Mathieu Trudel-Lapierre 2013-01-21 [merge] Remove uses of g_type_init. Fixes: https://bugs.launchpad.net/bugs/1102468, https://bugs.launchpad.net/bugs/1102471.
+437: Didier Roche 2013-01-09 [merge] Add bootstrap message.
+436: Martin Mrazik 2013-01-09 [merge] Making the test execution a bit more robus by getting a free X server number instead of the default 99. Some tests were failing with xvfb-run not being able to start.
+435: Ted Gould 2012-12-18 [merge] Properly inline + fixes for gtkdoc tests (much of the gtkdoc work done by Charles).
+434: Charles Kerr 2012-11-28 [merge] Confirm that icon_name is non-NULL before passing it to gtk_icon_theme_has_icon(). Fixes: https://bugs.launchpad.net/bugs/1082516.
+433: Charles Kerr 2012-10-26 [merge] when initializing fields inside a struct being declared, replace gccism with c99 syntax.
+432: Albert Astals 2012-10-26 [merge] Do not reuse menu items if their type is different
+431: Albert Astals Cid (aacid) 2012-10-24 [merge] Only prefer name over pixmap if the theme has the icon for the name
+430: Charles Kerr 2012-10-24 [merge] comment copyediting
+429: Albert Astals 2012-10-16 [merge] Call gtk_menu_set_active with the position of the activated menu item
+428: Charles Kerr 2012-10-03 {12.10.2} 12.10.2
+427: Lars Uebernickel 2012-09-24 parser.c: make sure to disconnect from gtksettings::gtk-menu-images
+426: Charles Kerr 2012-09-20 {12.10.1} 12.10.1
+425: Charles Kerr 2012-09-20 revert r417 so that we don't change the vapi name at the last minute for 12.10 (LP: #978687)
+424: Charles Kerr 2012-09-20 {12.10.0} 12.10.0
+423: Charles Kerr 2012-09-20 [merge] merge lp:~charlesk/dbusmenu/fix-json-tests to fix breakage in the test-json unit tests.
+422: Michael Terry 2012-09-13 [merge] pay attention to GtkSettings's gtk-menu-images value as it changes on the client end
+421: Charles Kerr 2012-08-21 [merge] merge lp:~charlesk/dbusmenu/constify-dbusmenu-menuitem-getters
+420: Charles Kerr 2012-06-18 [merge] merge lp:~evgeni/dbusmenu/optional-valgrind to allow dbusmenu to build and run its non-valgrind checks on architectures where valgrind isn't available.
+419: Ted Gould 2012-06-07 [merge] Making the headers match independent of build directory
+418: Charles Kerr 2012-06-04 [merge] merge lp:~aacid/dbusmenu/amp_replacement to prevent menuitems containing a '&' from incorrectly showing an underscore
+417: Charles Kerr 2012-04-26 [merge] Evan Nemerson's patch to make the Vala bindings use pkg-config names, rather than GIR names, so that valac can automatically pick up the relevant libraries and flags.
+416: Charles Kerr 2012-04-23 [merge] merge lp:~ted/dbusmenu/double-underscore to make libdbusmenu-gtk/genericmenuitem.c's sanitize_label() function static.
+415: Charles Kerr 2012-04-23 [merge] merge lp:~ted/dbusmenu/lp982656 to set the widget for the accelerator even if there isn't a mnemonic.
+414: Charles Kerr 2012-04-23 [merge] merge lp:~charlesk/dbusmenu/lp-981766 to fix a leaked dbus_object_path string
+413: Charles Kerr 2012-04-11 [merge] merge lp:~ted/dbusmenu/double-underscore to fix the double underscore regression introduced earlier.
+412: Charles Kerr 2012-04-11 {0.6.1} 0.6.1
+411: Charles Kerr 2012-04-11 [merge] merge lp:~ted/dbusmenu/lp903200 to be more explicit about what is and isn't a mnemonic.
+410: Charles Kerr 2012-04-11 {0.6.0} 0.6.0
+409: Charles Kerr 2012-04-11 [merge] merge lp:~charlesk/dbusmenu/disconnect-menuitem-shown to have menuitem_signals_remove() disconnect the DBUSMENU_MENUITEM_SIGNAL_SHOW_TO_USER event that we connected to in menuitem_signals_create().
+408: Charles Kerr 2012-04-10 [merge] merge lp:~charlesk/dbusmenu/lp-977803 to silence false positives in dbusmenu's signal smoke tests.
+407: Charles Kerr 2012-04-09 [merge] merge lp:~charlesk/dbusmenu/lp-959821
+406: Charles Kerr 2012-04-09 [merge] merge lp:~ted/dbusmenu/about-to-show-tuple to fix about-to-show grouping.
+405: Charles Kerr 2012-04-05 {0.5.99} 0.5.99
+404: Charles Kerr 2012-04-05 make event_data_find() and session_bus_cb() private instead of public
+403: Charles Kerr 2012-04-05 {0.5.98} 0.5.98
+402: Charles Kerr 2012-04-05 [merge] merge lp:~ted/dbusmenu/about-to-show-null-cb-protect to fix the about-to-show callback to better handle having a NULL callback, and thus NULL data. Putting some protections in as well so we'll get better errors from it if we make this mistake again.
+401: Charles Kerr 2012-04-04 {0.5.97} 0.5.97
+400: Charles Kerr 2012-04-04 [merge] Merge lp:~ted/dbusmenu/event-grouping to reduce the number of dbus messages that hud-service sends.
+399: Charles Kerr 2012-04-03 [merge] Merge lp:~allanlesage/dbusmenu/TDD to add gcov targets to autotools build for code-coverage reporting. For more information, see this blog post: http://qualityhour.wordpress.com/2012/01/29/test-coverage-tutorial-for-cc-autotools-projects/ .
+398: Charles Kerr 2012-04-02 [merge] merge lp:~ted/dbusmenu/valgrind-no-libs to fix the valgrind tests on ARM. h/t goes to sewardj
+397: Charles Kerr 2012-03-29 {0.5.96} 0.5.96
+396: Charles Kerr 2012-03-29 [merge] merge lp:~ken-vandine/dbusmenu/builddir_fixes for distcheck fixes
+395: Charles Kerr 2012-03-29 [merge] merge lp:~ted/dbusmenu/instruction-count-testing to support benchmarking based on callgrind measurements h/t Chase
+394: Charles Kerr 2012-03-28 [merge] merge lp:~ted/dbusmenu/testing-fixes for improvements to the dbusmenu tests
+393: Charles Kerr 2012-03-28 [merge] ChrisCoulson's patch to add a lookup hash to avoid the overhead of calling dbusmenu_menuitem_find_id() when possible. See lp bug #801699
+392: Charles Kerr 2012-03-28 [merge] fold together client.c's two PROPERTY_CHANGED signal handlers
+391: Ted Gould 2012-03-28 [merge] Don't sent event replies that aren't requested
+390: Charles Kerr 2012-03-27 [merge] merge lp:~ted/dbusmenu/firefox-extreme-case for tests/test-json-02.json
+389: Ted Gould 2012-03-21 {0.5.95} 0.5.95
+388: Charles Kerr 2012-03-21 [merge] merge lp:~charlesk/dbusmenu/lp-953509 to fix a crash in dbusmenu-gtk's handling of menu icon theme changes
+387: Ted Gould 2012-03-20 [merge] Don't ask for a reply if no one cares
+386: Ted Gould 2012-03-09 {0.5.94} 0.5.94
+385: Ted Gould 2012-03-09 [merge] Removing underscores in the ATK name
+384: Ted Gould 2012-03-09 [merge] Making sure to disconnect theme changed handler universally
+383: Ted Gould 2012-03-08 [merge] Making sure the ATK object name always gets set to the label if nothing else
+382: Ted Gould 2012-03-08 {0.5.93} 0.5.93
+381: Ted Gould 2012-03-08 Fixing a trivial annotation bug
+380: Ted Gould 2012-03-08 [merge] Fixing resetting an icon numerous times
+379: Ted Gould 2012-03-07 [merge] Set the ATK role on menuitems
+378: Ted Gould 2012-03-07 [merge] Clean up code paths to avoid unneeded goto's
+377: Ted Gould 2012-02-22 {0.5.92} 0.5.92
+376: Ted Gould 2012-02-22 Removing this test as it doesn't work properly with GTK currently
+375: Ted Gould 2012-02-22 [merge] Ensure labels don't leak and don't contain disposition markup
+374: Ted Gould 2012-02-15 {0.5.91} 0.5.91
+373: Ted Gould 2012-02-15 [merge] Use defines instead of strings
+372: Ted Gould 2012-02-15 [merge] Remove unused const on GStrv's
+371: Ted Gould 2012-02-15 [merge] Only free when there is data to free
+370: Ted Gould 2012-02-15 [merge] Ensure that we only return once even with error
+369: Ted Gould 2012-02-15 [merge] Fix an error on a failure to send properties
+368: Ted Gould 2012-02-15 [merge] Ensure the hash variant isn't NULL in the comparison
+367: Ted Gould 2012-02-15 [merge] Fix some of the issues with throwing criticals
+366: Ted Gould 2012-02-15 [merge] Ensure our tests fail if they throw criticals
+365: Ted Gould 2012-02-10 [merge] Parse and handle a11y descriptions
+364: Ted Gould 2012-02-10 [merge] Don't pass NULL to ATK
+363: Ted Gould 2012-02-10 [merge] Non-srcdir build fixes
+362: Ted Gould 2012-01-30 {0.5.90} 0.5.90
+361: Ted Gould 2012-01-30 [merge] Fix the test suite so that it... passes? 
+360: Ted Gould 2012-01-26 Only setting the accessible object name if it has been set
+359: Ted Gould 2012-01-26 [merge] Add a way for newcomers to the bus to find out who's there
+358: Ted Gould 2012-01-26 [merge] Add property of the accessible description
+357: Ted Gould 2012-01-26 Include config.h to get the HAVE_GTK3 define
+356: Ted Gould 2012-01-26 Missing comma
+355: Ted Gould 2012-01-26 [merge] Change to using the insert/remove signals in GTK3
+354: Ted Gould 2012-01-26 [merge] Change the icon data to be a byte stream instead of a base64 string
+353: Ted Gould 2012-01-26 [merge] Fixing header directories for GTK3 build
+352: Ted Gould 2012-01-24 [merge] Fix GTK3 deprecations
+351: Alex Launi 2011-12-16 build fixes
+350: Alex Launi 2011-12-16 remove the debian dir I accidentally added (blame bzr build weirdness)
+349: Alex Launi 2011-12-16 set full path of glib enum files
+348: Alex Launi 2011-12-16 Merge debian of lp:~ubuntu-desktop/dbusmenu/ubuntu
+347: Ted Gould 2011-12-01 [merge] Add in a check for always-show-image getting a different type
+346: Ted Gould 2011-11-29 [merge] Cancelling the idle if the menu item is removed
+345: Ted Gould 2011-11-28 [merge] Test is now working on Jenkins
+344: Ted Gould 2011-10-13 {0.5.1} 0.5.1
+343: Ted Gould 2011-10-12 [merge] Allow about-to-show on 0 based items (root items)
+342: Ted Gould 2011-10-12 [merge] Make sure to finally unref the GTK menuitem
+341: Ted Gould 2011-10-12 [merge] If the child is copied make sure we don't delete the original.
+340: Ted Gould 2011-09-29 {0.5.0} 0.5.0
+339: Ted Gould 2011-09-29 [merge] More NULL protection
+338: Ted Gould 2011-09-27 [merge] Protect from a NULL class
+337: Ted Gould 2011-09-27 [merge] Protect client_about_to_show() from abusers
+336: Ted Gould 2011-09-27 [merge] Protect from NULL privates
+335: Ted Gould 2011-09-23 [merge] Fix ref leaks in proxy code
+334: Ted Gould 2011-09-19 {0.4.94} 0.4.94
+333: Dennis Schridde 2011-09-19 Adding an optional build of the dumper
+332: Dennis Schridde 2011-09-19 Making it so that the Vala build is optional
+331: Ted Gould 2011-09-19 [merge] Protect the parse from segfaults
+330: Ted Gould 2011-09-02 [merge] Fix introspection build
+329: Ted Gould 2011-09-02 [merge] Make the test app not depend on dbusmenu-GTK
+328: Ted Gould 2011-09-02 [merge] Fix introspection detection.
+327: Ted Gould 2011-09-02 [merge] Making GTK optional
+326: Dennis Schridde 2011-09-02 Make building tests optional
+325: Ted Gould 2011-08-25 {0.4.93} 0.4.93
+324: Ted Gould 2011-08-25 [merge] Fix packing to use toggle spacing
+323: Ted Gould 2011-08-24 {0.4.92} 0.4.92
+322: Ted Gould 2011-08-24 [merge] Fix signatures on signals
+321: Ted Gould 2011-08-24 Making the capturing of colors from the theme GTK3 specific (it is) so that GTK2 can build
+320: Ted Gould 2011-08-24 {0.4.91} 0.4.91
+319: Ted Gould 2011-08-24 Adding discriptive text to the enums
+318: Ted Gould 2011-08-24 Ignoring the enum types as well
+317: Ted Gould 2011-08-24 Adding disposition entries to the docs
+316: Ted Gould 2011-08-23 [merge] Add in a disposition for menuitems
+315: Ted Gould 2011-08-23 Fix docs on which GTK is default
+314: Ted Gould 2011-06-20 {0.4.90} 0.4.90
+313: Ted Gould 2011-06-20 Require a JSON Glib with G_CONST_RETURN removed
+312: Ted Gould 2011-06-20 Marking glib-proxy-test as XFAIL to release.  Captured in bug 799878.
+311: Ted Gould 2011-06-17 Hide a warning that is happening on GTK 3 and breaking the test
+310: Ted Gould 2011-06-17 Make tests build under GTK+ 3
+309: Ted Gould 2011-06-17 [merge] Various memory leaks and fixes
+308: Ted Gould 2011-06-17 [merge] Unsetting the property value
+307: Ted Gould 2011-06-16 [merge] Matching version number of 0.4 trunk
+306: Ted Gould 2011-06-16 Making the default GTK 3
+305: Ted Gould 2011-06-16 [merge] Add a more specific annotation
+304: Ted Gould 2011-05-31 [merge] Toggle visibility to help Eclipse
+303: Ted Gould 2011-05-03 [merge] Removing the serializable menuitem
+302: Ted Gould 2011-04-26 Let's break us some ABI
+301: Ted Gould 2011-04-19 [merge] Fix a typo in the signal name to make it match the XML files
+300: Ted Gould 2011-04-19 [merge] Ref'ing the server for the entire time we're getting the bus
+299: Ted Gould 2011-04-15 [merge] Activating new entries the same as originally parsed ones
+298: Ted Gould 2011-04-15 [merge] Only activate items if they have submenus
+297: Ted Gould 2011-04-15 [merge] Make sure we watch new busmenus the same as original ones.
+296: Ted Gould 2011-04-14 {0.4.3} 0.4.3
+295: Ted Gould 2011-04-12 [merge] Handle cases of labels being added later
+294: Ted Gould 2011-04-12 [merge] Changing the cleanup of GTK Menuitems to avoid undefined references.
+293: Ted Gould 2011-04-12 [merge] Ensure that we gaurantee the open/clicked/closed event ordering.
+292: Ted Gould 2011-04-07 {0.4.2} 0.4.2
+291: Ted Gould 2011-04-07 [merge] Build menus based on teh child-display property
+290: Ted Gould 2011-04-05 [merge] Add a handler for the open/close events and pass them up to GTK
+289: Ted Gould 2011-04-05 [merge] Keep refs to the client and makes sure to disconnect all handlers.
+288: Ted Gould 2011-04-05 [merge] Don't duplicate flags
+287: Ted Gould 2011-03-31 {0.4.1} 0.4.1
+286: Ted Gould 2011-03-31 [merge] Ensuring that our iterators have variants to reference and ref'ing them correctly.
+285: Ted Gould 2011-03-31 [merge] Turning GTK Menuitems without labels into separators.
+284: Ted Gould 2011-03-28 [merge] Ensure the parent stays ref'd
+283: Ted Gould 2011-03-28 [merge] Protect our properties parsing a bit more.
+282: Ted Gould 2011-03-23 {0.4.0} 0.4.0
+281: Ted Gould 2011-03-23 [merge] Ensure that we don't remove properties that are getting their values updated
+280: Ted Gould 2011-03-23 [merge] Switch to using iter_loop to protect from NULL variants
+279: Ted Gould 2011-03-22 [merge] Look everywhere for accel closures
+278: Oleg Shparber 2011-03-21 Entering and exiting the GDK threads when calling up to GTK
+277: Ted Gould 2011-03-16 {0.3.102} 0.3.102
+276: Ted Gould 2011-03-16 [merge] Add handling for children getting removed
+275: Ted Gould 2011-03-16 [merge] Adding defines for the event identifiers
+274: Ted Gould 2011-03-16 [merge] Send open and close signals when menu visibility changes.
+273: Ted Gould 2011-03-16 [merge] Empty images are images too
+272: Ted Gould 2011-03-16 [merge] Removing a noisy warning
+271: Ted Gould 2011-03-16 [merge] Adding needed dependencies to pkgconfig files
+270: Ted Gould 2011-03-14 [merge] Handle NULL better in finding the label
+269: Ted Gould 2011-03-14 [merge] Lots of memory leak fixes
+268: Ted Gould 2011-03-10 {0.3.101} 0.3.101
+267: Ted Gould 2011-03-10 Ignoring a bunch of files that are annoying
+266: Ted Gould 2011-03-10 Commenting out the Python tests as they don't test what we want
+265: Ted Gould 2011-03-10 [merge] Helper to get the cached menuitem from a widget
+264: Ted Gould 2011-03-10 [merge] Having the GTK Client handle theme directories
+263: Ted Gould 2011-03-10 [merge] Memory leak fixes
+262: Ted Gould 2011-03-09 [merge] Respect use_underscores and add extra _ if not set
+261: Ted Gould 2011-03-09 [merge] Protecting from NULL layout_props
+260: Ted Gould 2011-03-09 [merge] Make sure to remove the value from the hash before signaling it's changed
+259: Ted Gould 2011-03-09 [merge] Get the label and remove markup so that we get the mnemonics
+258: Ted Gould 2011-03-09 [merge] Setting the cache and allowing reparenting of items
+257: Ted Gould 2011-03-08 [merge] Wrap properties
+256: Ted Gould 2011-03-04 [merge] Fix the enum templates
+255: Ted Gould 2011-03-03 {0.3.100} 0.3.100
+254: Ted Gould 2011-03-03 [merge] Changing the destroy prototype for better GIR support
+253: Ted Gould 2011-03-03 [merge] Use proper types on function
+252: Ted Gould 2011-03-03 [merge] Adding support to track icon theme directories
+251: Ted Gould 2011-03-02 [merge] Handle the case where the passed in property name could be from the hashtable.
+250: Ted Gould 2011-03-02 [merge] Changing the property names to follow the recommended practices.
+249: Ted Gould 2011-03-01 [merge] Specification cleanups
+248: Ted Gould 2011-03-01 [merge] Check for valid name before building up variant.
+247: Ted Gould 2011-03-01 [merge] Disconnecting theme changed on normal cleanup as well to ensure it's benign.
+246: Ted Gould 2011-03-01 [merge] Removing properties by setting the variant to NULL to generate signals and cleaning up an associated warning.
+245: Ted Gould 2011-03-01 [merge] Adding a weak pointer to the submenu
+244: Ted Gould 2011-03-01 [merge] Have the gir-scanner use the exported interfaces
+243: Ted Gould 2011-03-01 [merge] Use the right i18n header
+242: Ted Gould 2011-03-01 [merge] Making sure to disconnect all signal handlers.
+241: Ted Gould 2011-03-01 [merge] Actually use the parent parameter to find the menuitem
+240: Ted Gould 2011-02-26 [merge] Fixing to ensure we keep a variant reference.
+239: Ted Gould 2011-02-24 {0.3.99} 0.3.99
+238: Ted Gould 2011-02-24 Marking as having details available in the signal
+237: Ted Gould 2011-02-24 Set property to status and return it
+236: Ted Gould 2011-02-24 [merge] Changing the property changed handler to get the property instead of using accessor functions that might not be the same
+235: Ted Gould 2011-02-24 Document the event signal define.
+234: Ted Gould 2011-02-24 Adding in the event signal for the menuitem
+233: Ted Gould 2011-02-24 Fixing signal emition to use the saved value instead of the enum
+232: Ted Gould 2011-02-24 [merge] Track the parent inside the menuitem instead of with a data property externally.
+231: Ted Gould 2011-02-24 [merge] Unregister the theme signal handler on destruction instead of doing it through an odd reference.
+230: Ted Gould 2011-02-24 [merge] Adding an 'event' signal for generic event handling
+229: Ted Gould 2011-02-24 Documentation fixes
+228: Ted Gould 2011-02-24 Bad merge, forgot this change in name
+227: Ted Gould 2011-02-24 [merge] Only send property updates if the item has been already requested.
+226: Ted Gould 2011-02-24 [merge] Allow sending only some properties based on what is requested.
+225: Ted Gould 2011-02-24 [merge] Adding a property to request attention
+224: Ted Gould 2011-02-24 [merge] Adding a property for text direction
+223: Ted Gould 2011-02-24 [merge] Fix up documentation and make it part of make check
+222: Ted Gould 2011-02-24 [merge] Make sure to not recurse if the value says we shouldn't
+221: Ted Gould 2011-02-23 [merge] Don't check defaults with NULL objects
+220: Ted Gould 2011-02-23 [merge] Cleaning up cleaning up so we don't unref twice and crash
+219: Ted Gould 2011-02-23 [merge] Fixing the signatures to make them more consistent
+218: Ted Gould 2011-02-22 Adding defaults to translatable files
+217: Ted Gould 2011-02-22 [merge] Support a set of defaults and not sending them over the bus.
+216: Ted Gould 2011-02-21 [merge] Fixing annotations and adding tests with python.
+215: Ted Gould 2011-02-17 {0.3.98} 0.3.98
+214: Ted Gould 2011-02-17 [merge] Fixing distcheck
+213: Ted Gould 2011-02-17 [merge] Grabbing the no xml branch as well, just for completeness
+212: Ted Gould 2011-02-17 [merge] Group property changes into a single signal and change GetLayout to not use XML
+211: Ted Gould 2011-02-17 [merge] Clean up the handling of icons to be a more robust code path
+210: Ted Gould 2011-02-16 [merge] Fixing the GVariant signatures on dbusmenu-dumper
+209: Ted Gould 2011-02-10 {0.3.97} 0.3.97
+208: Ted Gould 2011-02-09 [merge] Fixing the naming of the Dbusmenu Glib GIR file
+207: Ted Gould 2011-02-06 [merge] Fixing take to not unref
+206: Ted Gould 2011-02-04 [merge] Handle ChildAdded on GtkShell items and clean up the code so that it has single functions for doing common operations.
+205: Ted Gould 2011-02-03 {0.3.96} 0.3.96
+204: Ted Gould 2011-02-03 [merge] Ensure that we remove signals from the objects we put them on.
+203: Ted Gould 2011-01-31 {0.3.95} 0.3.95
+202: Ted Gould 2011-01-31 [merge] Fix the property return signature.
+201: Ted Gould 2011-01-31 [merge] Handling changing submenus by watching for the notify event
+200: Ted Gould 2011-01-31 [merge] Fixing a set of issues with not keeping references to objects in callbacks.
+199: Ted Gould 2011-01-27 {0.3.94} 0.3.94
+198: Ted Gould 2011-01-27 [merge] Making the parser recognize when it hits serializable menu items
+197: Ted Gould 2011-01-27 [merge] Adding in a serializable menuitem object
+196: Ted Gould 2011-01-27 [merge] Now with a parser.
+195: Ted Gould 2011-01-26 [merge] Consolidate warnings if there isn't a 'use-fallback' property.
+194: Ted Gould 2011-01-26 [merge] Fix some memory leaks, we hate those! 
+193: Ted Gould 2011-01-26 [merge] Fix the signatures for GetChildren
+192: Ted Gould 2011-01-25 [merge] Fixing a critical message being printed
+191: Ted Gould 2011-01-21 [merge] Adding signle includes
+190: Ted Gould 2011-01-20 {0.3.93} 0.3.93
+189: Ted Gould 2011-01-20 [merge] Increase the level of warning given by the scanner
+188: Ted Gould 2011-01-20 [merge] Fix some crashes when building variants improperly
+187: Ted Gould 2011-01-19 [merge] Setup images to use the fallbacks.
+186: Ted Gould 2011-01-19 [merge] Signal an update layout when the object comes on the bus.
+185: Ted Gould 2011-01-18 [merge] Fixing build with g-ir-scanner on buildds
+184: Ted Gould 2011-01-14 {0.3.92} 0.3.92
+183: Ted Gould 2011-01-14 Adding the notdir on the build
+182: Ted Gould 2011-01-14 Unboxing variants if they're in events.
+181: Ted Gould 2011-01-13 {0.3.91} 0.3.91
+180: Ted Gould 2011-01-13 Fixing packages names for the gir scanner
+179: Ted Gould 2011-01-13 [merge] Changing namespace from ayatana.org to canonical.com
+178: Ted Gould 2011-01-13 [merge] Changing the accel reference.
+177: Ted Gould 2011-01-06 [merge] Adding an about-to-show signal to the menuitem
+176: Ted Gould 2011-01-06 [merge] Allow removing properties with NULL variants or strings.
+175: Ted Gould 2010-12-09 [merge] Fixing check menu items (and radio)
+174: Ted Gould 2010-12-09 Upping the library version as we're different ABI than 0.3.90 even :-/
+173: Ted Gould 2010-12-08 [merge] Switching from dbus-glib to GDBus
+172: Ted Gould 2010-12-06 [merge] Fixing introspection for Natty
+171: Ted Gould 2010-11-11 {0.3.90} 0.3.90
+170: Ted Gould 2010-11-11 Adding in the deprecation flags even if we can't really use them yet.
+169: Ted Gould 2010-11-11 [merge] Merging in configurable GTK build option
+168: Ted Gould 2010-10-14 [merge] Only force a flush for the top level of items.
+167: Ted Gould 2010-10-13 [merge] Breaking ABI.  Getting back privates and pointers to private area.
+166: Ted Gould 2010-09-22 {0.3.16} 0.3.16
+165: Ted Gould 2010-09-22 [merge] Removing a typedef in headers as it confuses vapigen
+164: David Barth 2010-09-22 {0.3.15} 0.3.15
+163: Ted Gould 2010-09-21 [merge] Activating items with submenus on about to show
+162: Ted Gould 2010-09-21 Adding in ChangeLog and AUTHORS dist-hooks
+161: Ted Gould 2010-09-15 {0.3.14} 0.3.14
+160: Ted Gould 2010-09-15 [merge] Free'ing an allocated hashtable.
+159: Ted Gould 2010-09-14 [merge] Putting the passing up the event stack in a timeout.
+158: Ted Gould 2010-09-09 {0.3.13} 0.3.13
+157: Ted Gould 2010-08-30 [merge] Adding magic grab code to unfubar menus
+156: Ted Gould 2010-08-30 [merge] Fix the event signal and add a test for it.
+155: Ted Gould 2010-08-26 {0.3.12} 0.3.12
+154: Ted Gould 2010-08-26 Removing unused variable
+153: Ted Gould 2010-08-26 [merge] Report event status up the chain
+152: Ted Gould 2010-08-25 [merge] Show menus when a signal is sent from the menu item
+151: Ted Gould 2010-08-20 [merge] Increasing the maximum size of the XML layout.
+150: Ted Gould 2010-08-19 {0.3.11} 0.3.11
+149: Ted Gould 2010-08-17 [merge] Makes the layout handle commend nodes better (and thus the KDE layouts).
+148: Ted Gould 2010-08-12 Increasing timer for ARM to get a build.
+147: Ted Gould 2010-08-12 {0.3.10} 0.3.10
+146: Ted Gould 2010-08-12 Making the dumper sort the properties to make it more predictable.
+145: Ted Gould 2010-08-05 [merge] Tools fixes
+144: Ted Gould 2010-08-02 {0.3.9} 0.3.9
+143: Ted Gould 2010-08-02 [merge] Reorder the parsing of the layout tree so that we can request properties in a breadth first manner.
+142: Ted Gould 2010-08-02 [merge] Only send layout updates after we reach the idle portion of the mainloop.  Reduces the number sent with rapid updates.
+141: Ted Gould 2010-08-02 [merge] Grouping property requests into a larger dbus request.
+140: Cody Russell 2010-07-30 {0.3.8} Bump version to 0.3.8.
+139: Cody Russell 2010-07-30 [merge] Merge open-menu-signal branch.
+138: Cody Russell 2010-07-22 {0.3.7} Bump version.
+137: Cody Russell 2010-07-22 Test fixes.
+136: Aurelien Gateau 2010-07-22 Reverted changes to test-gtk-reorder-server
+135: Aurelien Gateau 2010-07-22 Fix menu order in submenus
+134: Ted Gould 2010-07-20 [merge] Making it so that dbus-dumper has a click to dump feature.
+133: Ted Gould 2010-07-15 {0.3.6} 0.3.6
+132: Ted Gould 2010-07-14 [merge] Protecting from getting passed NULL GValues
+131: Ted Gould 2010-07-08 {0.3.5} 0.3.5
+130: Ted Gould 2010-07-07 [merge] Better handling of NULL nodes.
+129: Ted Gould 2010-07-07 [merge] Lowering the warning from group not being found warnings.
+128: Ted Gould 2010-07-02 [merge] Remove debug message
+127: Ted Gould 2010-07-02 [merge] Handle not having a session bus better.
+126: Ted Gould 2010-07-01 {0.3.4} 0.3.4
+125: Ted Gould 2010-06-30 [merge] Ensuring that separators can't have submenus
+124: Ted Gould 2010-06-30 [merge] Merging in the added JSON functionality branch
+123: Ted Gould 2010-06-28 Ignoring the gtk-doc build files.
+122: Ted Gould 2010-06-28 [merge] Updating dbusmenu-dumper to handle collections better
+121: Ted Gould 2010-06-24 {0.3.3} 0.3.3
+120: Ted Gould 2010-06-24 [merge] Make the shortcut structure match Qt
+119: Ted Gould 2010-06-22 [merge] Protect from unexpected arrays on the bus.
+118: Ted Gould 2010-06-22 [merge] Fixing the getting accel from a menu item.
+117: Ted Gould 2010-06-22 [merge] Autogen fix
+116: Ted Gould 2010-06-21 [merge] Adding support for accelerators.
+115: Ted Gould 2010-06-18 [merge] Fixing property name
+114: Ted Gould 2010-06-10 [merge] Do an extra check for the name to fix some Hudson tests.
+113: Ted Gould 2010-06-10 [merge] Fixes to make a distcheck without building first.
+112: Ted Gould 2010-06-10 {0.3.2} 0.3.2
+111: Ted Gould 2010-06-10 Adding in a formal sections definition
+110: Ted Gould 2010-06-10 Adding server and client dbus interfaces to the ignored header files.
+109: Ted Gould 2010-06-10 [merge] Set the child-display property automatically on menuitems that have children.
+108: Ted Gould 2010-06-09 [merge] Adds support for gtk-doc
+107: Ted Gould 2010-06-07 [merge] Adding shortcut property to documentation.
+106: Ted Gould 2010-06-04 {0.3.1} 0.3.1
+105: Ted Gould 2010-06-04 [merge] Changing some of our annotations so they build better on updated g-ir-scanner
+104: Ted Gould 2010-05-27 {0.3.0} 0.3.0
+103: Ted Gould 2010-05-27 [merge] Adding a simple function to get the submenu on the menuitem.
+102: Ted Gould 2010-05-27 [merge] Fix signal for ID update
+101: Ted Gould 2010-05-21 Changing the version string to match how people refer to the gir file.
+100: Ted Gould 2010-05-20 [merge] Fix the construction of the VAPI files.
+99: Ted Gould 2010-05-10 [merge] Reject text nodes to avoid erros.
+98: Ted Gould 2010-05-06 [merge] Documentation title page
+97: Ted Gould 2010-04-17 [merge] Cleaning up refcounting
+96: Ted Gould 2010-04-15 [merge] Changing the GTK layer to look at the realized location instead of the absolute location in the menu ordering.
+95: Ted Gould 2010-04-02 [merge] Visibilty documentation
+94: Ted Gould 2010-04-01 {0.2.9} 0.2.9
+93: Ted Gould 2010-04-01 [merge] Documentation Fix
+92: Ted Gould 2010-03-31 [merge] Switching menu updating to be friendlier
+91: Ted Gould 2010-03-31 [merge] Merging in support for sending AboutToShow events.
+90: Ted Gould 2010-03-31 [merge] Update to clean up dbusmenu on syncing so we have references properly.
+89: Ted Gould 2010-03-25 {0.2.8, upstream-0.2.8} 0.2.8
+88: Ted Gould 2010-03-24 We shouldn't need to unref, as we don't have a ref.
+87: Ted Gould 2010-03-24 [merge] Adding support for blank icons
+86: Ted Gould 2010-03-23 [merge] Removing an unnecissary warning.
+85: Ted Gould 2010-03-10 [merge] Typo
+84: Ted Gould 2010-03-04 {0.2.7} 0.2.7
+83: Ted Gould 2010-03-02 Pulling GIRs from the build dir
+82: Ted Gould 2010-03-02 Fixing the directory path for the glib gir file and making sure we clean up the girs.
+81: Ted Gould 2010-03-02 Building the gir files at build time instead of at dist.
+80: Ted Gould 2010-03-01 [merge] Building GIR, typelib and VAPI files.
+79: Ted Gould 2010-02-25 [merge] Using a pointer formatting command for tests
+78: Ted Gould 2010-02-25 {0.2.6} 0.2.6
+77: Ted Gould 2010-02-24 [merge] Removing delayed proerty update.  It seems to break things and I can't figure out why.  I wasn't ever able to get it to kick in and make a difference, so the feature is probably academic anyway.  I'm still unhappy that I can't figure out what's going here though.
+76: Ted Gould 2010-02-19 [merge] Updates to make the proxy test more reliable
+75: Ted Gould 2010-02-18 {0.2.5} 0.2.5
+74: Ted Gould 2010-02-18 [merge] Adds a menuitem proxy object to glib and applies various fixes through that this uncovered.
+73: Ted Gould 2010-02-14 [merge] Adds an ID in the default XML data.
+72: Ken VanDine 2010-02-11 include all the license files in EXTRA_DIST
+71: Ted Gould 2010-02-11 {0.2.4} 0.2.4
+70: Ted Gould 2010-02-09 [merge] Better handle errors on dbus and fix one function signature.
+69: Ted Gould 2010-02-09 [merge] Removing unnecissary ref
+68: Ted Gould 2010-02-05 {0.2.3} 0.2.3
+67: Ted Gould 2010-02-05 [merge] Fix IDs to handle the root ID of zero better and to handle merging of properties if items are reused.
+66: Ted Gould 2010-02-05 [merge] Fixing dist to include json files and a new readme explaining the bench files.
+65: Ted Gould 2010-02-04 [merge] Spec fixes
+64: Ted Gould 2010-02-04 {0.2.2} 0.2.2
+63: Ted Gould 2010-02-04 [merge] Dbusmenu Bench tool average support.
+62: Ted Gould 2010-02-04 [merge] Adding in the benchmarking tools for dbusmenu.
+61: Ted Gould 2010-02-04 [merge] Fixing the check tests.
+60: Ted Gould 2010-02-04 [merge] Interoperability fixes.
+59: Ted Gould 2010-02-03 [merge] Adding support for having generic signals in the menuitems.  Moving 'clicked' to GTK.
+58: Ted Gould 2010-01-24 [merge] Fix an annoying warning that isn't really useful on image menuitems.
+57: Ted Gould 2010-01-24 [merge] Adding a parameter on the event function so that the timestamp is always passed.
+56: Ted Gould 2010-01-24 [merge] Changing the name of the update signal to match the other signal names.  Now 'LayoutUpdated'.
+55: Ted Gould 2010-01-22 [merge] Remove the revision property from the <menu> nodes in the layout XML file.
+54: Ted Gould 2010-01-22 [merge] Always make sure the XML has the root item with an ID of zero.
+53: Ted Gould 2010-01-12 {0.2.1} 0.2.1
+52: Cody Russell 2010-01-12 [merge] Fix to not destroy the image if we're still using it.
+51: Ted Gould 2010-01-11 [merge] Adding code to support icon names that have an implied direction in them.
+50: Ted Gould 2010-01-11 [merge] Fix to put a small amount of padding between the icon and the label.
+49: Ted Gould 2010-01-08 {0.2.0} 0.2.0
+48: Ted Gould 2010-01-07 [merge] Removing libdbusmenu-qt as it's not used.
+47: Ted Gould 2010-01-07 [merge] Fix inconsistency between the names of the check items.  Now everything uses the #defines.
+46: Ted Gould 2010-01-07 [merge] Fixing the dbus handling so that we can pick up the menu again if the server is not initially there, or comes back after disappearing.
+45: Aurélien Gâteau 2010-01-04 [merge] Adding in support for the GetChildren function.
+44: Ted Gould 2009-12-22 Typo on variable name.  Oh, I hate dynamically linked languages.
+43: Ted Gould 2009-12-22 Removing the bustle captures as we're not using them and they seem to be breaking on Hudson.
+42: Ted Gould 2009-12-22 [merge] Fix signal prototype and how the hashtable is handled.  Added tests.
+41: Ted Gould 2009-12-18 Giving us some room in the 0.1.x series, but still getting version numbers in the right place so that people can start depending on this API.
+40: Ted Gould 2009-12-18 [merge] Updating to the basis of the v2 changes for dbusmenu
+39: Ted Gould 2009-12-10 [merge] Syncing up with the 0.1 branch
+38: Cody Russell 2009-12-10 Don't set underline to TRUE if it's a separator menuitem
+37: Cody Russell 2009-12-09 [merge] Making generated items understand underlines in labels.
+36: Cody Russell 2009-12-09 [merge] Fixing includes in the dbusmenu-gtk client.h
+35: Ted Gould 2009-12-08 [merge] Fixing the returns on the test suite.
+34: Ted Gould 2009-11-20 [merge] XVFB based testing
+33: Ted Gould 2009-11-20 [merge] Changing name to org.ayatana.
+32: Ted Gould 2009-10-29 Dummy version to work around a bazaar bug.
+31: Aurélien Gâteau 2009-10-28 [merge] Documentation on DBus interface.
+30: Ted Gould 2009-10-11 [merge] Merging in the updates to make mago work nicely.
+29: Ara Pulido 2009-10-07 [merge] Patch to update the Mago tests to the new Mago
+28: Ted Gould 2009-10-06 [merge] Adding in a new tool to dump the dbusmenu data so that it's easy to get.
+27: Ted Gould 2009-10-05 [merge] Fixing the reorder test.
+26: Ted Gould 2009-10-05 {0.1.7} Version 0.1.7
+25: Ted Gould 2009-10-05 Removing the tarballs from the bazaar list.
+24: Ted Gould 2009-10-05 [merge] Adding the copying file for GPLv3 because we should have added it, but the Ubuntu team did it for us :) 
+23: Ted Gould 2009-10-02 {0.1.6} Making a 0.1.6
+22: Ted Gould 2009-10-02 Cleaning up the tests after building them
+21: Ted Gould 2009-10-02 [merge] Managing the lifecycle of the menu item more directly and making sure to remove them from the menu when they're not children of it anymore.
+20: Ted Gould 2009-10-02 [merge] Checking on error so that we don't access invalid hash tables.
+19: Ted Gould 2009-09-24 {0.1.5} Incrementing the version number
+18: Ted Gould 2009-09-24 Moving the po/Makefile.in.in out of Bazaar
+17: Ted Gould 2009-09-24 [merge] Merging in the branch adding a revision number to layouts to ensure they're in sync.
+16: Ted Gould 2009-09-17 {0.1.4} Setting version to 0.1.4
+15: Ted Gould 2009-09-11 [merge] Applying a fix by not blocking if we're calling for the root.  Everyone should be listening for root changes anyway.
+14: Ted Gould 2009-09-10 {0.1.3} Wild and crazy 0.1.3
+13: Ted Gould 2009-09-10 [merge] Merging in a fix for reordering entries in the GTK menu object.  And some comments.
+12: Ted Gould 2009-09-03 {0.1.2} Version 0.1.2
+11: Ted Gould 2009-09-03 Casting the gsize to an int for 64-bit systems.  We shouldn't have pngs over 4 GB anyway.  Wonder how dbus would handle it...
+10: Ted Gould 2009-09-03 {0.1.1} Up to 0.1.1
+9: Ted Gould 2009-09-03 [merge] Merging in support for image items.  Including encoding and decoding the images across DBus.
+8: Ted Gould 2009-09-02 [merge] Merging in the sensitivity branch.  It adds a property for adjusting the sensitivity of menu items.
+7: Ted Gould 2009-08-27 {0.1.0} Increasing the version to 0.1.0 because of a miscommunication about what the next version will be.  The next version will be 0.1.1
+6: Ted Gould 2009-08-27 [merge] {0.0.2} Merging in the branch to add a simple type system to dbusmenu and use it to make a better GTK library, including showing and hiding items.
+5: Ted Gould 2009-08-04 [merge] Merging in the development branches
+4: Ted Gould 2009-06-05 [merge] Merging in work on properties.  Cody reviewed in merge request 6707.
+3: Ted Gould 2009-05-12 [merge] Merging in my working branch that brings in basic object functionality passing across DBus.
+2: Ted Gould 2009-03-25 [merge] A basic build system to start laying out the library.
+1: Ted Gould 2009-03-25 First file
