@@ -1,3 +1,9 @@
+libdbusmenu (18.10.20180917~bzr492+repack1-deepin2) unstable; urgency=medium
+
+  * remove valgrind from dependency for loong64
+
+ -- Chang Yang <yangchang@deepin.org>  Fri, 19 Jan 2024 09:53:15 +0800
+
 libdbusmenu (18.10.20180917~bzr492+repack1-deepin1) unstable; urgency=medium
 
   * Rebuild
