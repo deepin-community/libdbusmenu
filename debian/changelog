@@ -1,3 +1,14 @@
+libdbusmenu (18.10.20180917~bzr492+repack1-deepin2) unstable; urgency=medium
+
+  * debian/control:
+    + Don't depend on valgrind on mips64el.
+  * debian/patches:
+    + Add 0004_prevent-test-json-from-failing.patch. Prevent test-json from
+      failing due to 'Using cross-namespace EXTERNAL authentication' warning.
+      (Closes: #1020076).
+
+ -- qaqland <anguoli@uniontech.com>  Tue, 01 Jul 2025 10:35:31 +0800
+
 libdbusmenu (18.10.20180917~bzr492+repack1-deepin1) unstable; urgency=medium
 
   * Rebuild
