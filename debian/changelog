@@ -1,3 +1,10 @@
+libdbusmenu (18.10.20180917~bzr492+repack1-deepin3) unstable; urgency=medium
+
+  * debian/control:
+   + Switch to valgrind-if-available.
+
+ -- qaqland <anguoli@uniontech.com>  Fri, 04 Jul 2025 10:48:58 +0800
+
 libdbusmenu (18.10.20180917~bzr492+repack1-deepin2) unstable; urgency=medium
 
   * debian/control:
