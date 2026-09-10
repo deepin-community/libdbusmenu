@@ -1,3 +1,9 @@
+libdbusmenu (18.10.20180917~bzr492+repack1-deepin4) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- tunaichao <tunaichao@uniontech.com>  Thu, 10 Sep 2026 18:12:08 +0800
+
 libdbusmenu (18.10.20180917~bzr492+repack1-deepin3) unstable; urgency=medium
 
   * debian/control:
